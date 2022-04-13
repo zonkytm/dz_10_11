@@ -87,7 +87,7 @@ public:
 
 
 
-class Parrot :Animal {
+class Parrot :public Animal {
 public:
 	Parrot(int age, string color) :Animal(age, color) {
 		this->age = age;
@@ -99,7 +99,7 @@ public:
 };
 
 
-class Dog :Animal {
+class Dog :public Animal {
 public:
 	Dog(int age, string color) :Animal(age, color) {
 		this->age = age;
@@ -111,7 +111,7 @@ public:
 };
 
 
-class Cat :Animal {
+class Cat :public Animal {
 public:
 	Cat(int age, string color) :Animal(age, color) {
 		this->age = age;
