@@ -90,8 +90,7 @@ public:
 class Parrot :public Animal {
 public:
 	Parrot(int age, string color) :Animal(age, color) {
-		this->age = age;
-		this->color = color;
+
 	}
 	void voice() override {
 		cout << "sing\n";
@@ -102,8 +101,7 @@ public:
 class Dog :public Animal {
 public:
 	Dog(int age, string color) :Animal(age, color) {
-		this->age = age;
-		this->color = color;
+
 	}
 	void voice() override {
 		cout << "Gawg\n";
@@ -114,8 +112,7 @@ public:
 class Cat :public Animal {
 public:
 	Cat(int age, string color) :Animal(age, color) {
-		this->age = age;
-		this->color = color;
+
 	}
 	void voice() override {
 		cout << "Meow\n";
